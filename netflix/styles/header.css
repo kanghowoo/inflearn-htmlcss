@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    padding: 20px;
+    align-items: center;
+
+    background-color: rgba(50,50,50,0.35);
+
+}
+
+.header_logo {
+    width: 90px;
+}
+
+.header_avatar {
+    width: 30px;
+}
